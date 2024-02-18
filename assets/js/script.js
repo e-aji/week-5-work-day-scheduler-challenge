@@ -3,15 +3,15 @@
 // in the html.
 $(document).ready(function () {
 
-  $('saveBtn').on('click', function(){
+  $('.saveBtn').on('click', function(){
     var value = $(this).siblings('.description').val();
     var time = $(this).parent().attr('id');
-    localStorage.setItem(time,vlaue);
+    localStorage.setItem(time,value);
 
-    $('notication').addClass('show');
+    $('.notification').addClass('show');
 
     setTimeout(function () {
-      $('.notification').removeClass('.show');
+      $('.notification').removeClass('show');
 
     }, 5000);
 
@@ -32,21 +32,20 @@ function hourUpdater () {
     }else {
     $(this).addClass('future');
     }  
-  }
-});
+  });
+}
 
-$('description').each(function(){
+$('.description').each(function(){
 
   var time = $(this).parent().attr('id');
-  $(this).value(localStorage.getItem(time));
+  $(this).val(localStorage.getItem(time));
  
   }) 
 
  // Displays the current date in the header of the page.
  
-$('#currentDay').text(dayjs().format('MMM D, YYYY'));
+ $('#currentDay').text(dayjs().format('MMM D, YYYY'));
 });
-
 
 
   // TODO: Add a listener for click events on the save button. This code should
