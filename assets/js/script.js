@@ -1,7 +1,52 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-$(function () {
+$(document).ready(function () {
+
+  $('saveBtn').on('click', function(){
+    var value = $(this).siblings('.description').val();
+    var time = $(this).parent().attr('id');
+    localStorage.setItem(time,vlaue);
+
+    $('notication').addClass('show');
+
+    setTimeout(function () {
+      $('.notification').removeClass('.show');
+
+    }, 5000);
+
+  });
+
+function hourUpdater () {
+
+  var currentHour = dayjs().hour();
+  $('.time-block').each(function() {
+    var blockHour = parseInt($(this).attr('id').split('-')[1]);
+    
+    if (blockHour < currentHour){
+    $(this).addClass('past');
+
+    }else if (blockHour == currentHour){
+      $(this).addClass('present');
+
+    }else {
+    $(this).addClass('future');
+    }  
+  }
+});
+
+$('description').each(function(){
+
+  var time = $(this).parent().attr('id');
+  $(this).value(localStorage.getItem(time));
+ 
+  }) 
+
+ // Displays the current date in the header of the page.
+ 
+$('#currentDay').text(dayjs().format('MMM D, YYYY'));
+});
+
 
 
   // TODO: Add a listener for click events on the save button. This code should
@@ -22,6 +67,3 @@ $(function () {
   // attribute of each time-block be used to do this?
   //
   // TODO: Add code to display the current date in the header of the page.
-
-$('#currentDay').text(dayjs().format('MMM D, YYYY'));
-});
