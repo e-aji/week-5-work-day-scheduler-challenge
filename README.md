@@ -2,6 +2,8 @@
 
 ## Description 
 
+The aim of this project was to create a workday scheduler that can be used each day of the week to plan a busy work schedule. The user can use the scheduler to add important events daily so they can manage their time mroe effectively. Third party APIs such as Bootstrap, Day.js and jQuery were instrumental in the creation and functionality of this project. 
+
 ## User Story
 
 ```md
@@ -29,6 +31,9 @@ THEN the saved events persist
 ```
 
 ## Usage 
+
+* This scheduler is broken up into nine timeblocks for a full workday, covering the hours of 9:00am-17:00pm. 
+* Each time block covers an hour and has a text area where the user can 
 
 
 ## Images 

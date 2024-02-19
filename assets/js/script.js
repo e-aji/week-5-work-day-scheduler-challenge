@@ -53,7 +53,7 @@ $('.description').each(function(){
 
  // Displays the current date in the header of the page.
  
- $('#currentDay').text(dayjs().format('MMM D, YYYY'));
+ $('#currentDay').text(dayjs().format('dddd, MMM D, YYYY'));
 });
 
 
