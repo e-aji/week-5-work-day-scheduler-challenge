@@ -32,6 +32,7 @@ THEN the saved events persist
 
 ## Usage 
 
+* Day.js has been used to make sure that the correct day and date is always displayed in the header of the webpage.
 * This scheduler is broken up into nine timeblocks for a full workday, covering the hours of 9:00am-17:00pm. 
 * Each time block covers an hour and has a text area where the user can input a task that would like to complete in that time.
 * Each time block is colour coded to reflect the time of day and if it corresponds to being past, present or future. Past events will be in grey, present events in orange and future events in green. 
