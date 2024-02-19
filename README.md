@@ -43,6 +43,14 @@ THEN the saved events persist
 
 ## Images 
 
+Work Day Scheduler - Full Page 
+
+![Work Day Scheduler - Full Page ](https://github.com/e-aji/week-5-work-day-scheduler-challenge/assets/156595423/d29d66df-1a38-402d-9b38-8de2d651f339)
+
+
+Screenshot showing how events are saved in local storage 
+
+<img width="1439" alt="Work Day Scheduler - Local Storage" src="https://github.com/e-aji/week-5-work-day-scheduler-challenge/assets/156595423/49054f28-39f9-4a02-8f4f-704118ea67f2">
 
 
 ## Links 
