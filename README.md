@@ -37,6 +37,7 @@ THEN the saved events persist
 * Each time block covers an hour and has a text area where the user can input a task that would like to complete in that time.
 * Each time block is colour coded to reflect the time of day and if it corresponds to being past, present or future. Past events will be in grey, present events in orange and future events in green. 
 * Using the save button present for each hour block, the user can then save the input into local storage.
+* The user is then presented with a message that lets them know that the event they have inputted has been saved in local storage. 
 * This means that when the user revisits the webpage or refreshes, the text that they have inputted will always be there to be viewed until they decide to delete it. 
 * While saved in local storage, the event input is saved with the corresponding time so it is always displayed in that time block.  
 

@@ -14,7 +14,7 @@ $(document).ready(function () {
       $('.notification').removeClass('show');
 
     }, 5000);
-    
+
     // Call the hourUpdater function when the document is ready
       hourUpdater();
 

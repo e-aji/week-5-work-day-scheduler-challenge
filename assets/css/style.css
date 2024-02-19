@@ -3,6 +3,7 @@ body {
   font-size: 16px;
 }
 
+/* Styling for header */
 header{
 
 background-color: #99B4BF;
@@ -20,6 +21,8 @@ background-color: #99B4BF;
   display: block;
 }
 
+/* Styling for text area */
+
 textarea {
   background: transparent;
   border: none;
@@ -33,6 +36,8 @@ textarea {
   white-space: pre-wrap;
 }
 
+/* Styling for time block */
+
 .time-block {
   border-radius: 15px;
 }
@@ -41,12 +46,15 @@ textarea {
   border-top: 1px solid white;
 }
 
+/* Styling for hour section */
+
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 
 }
+/* Styling for past class */
 
 .past {
   background-color: #E9E9E9;
@@ -57,6 +65,7 @@ textarea {
   background-color: #8B8E92;
   color: white;
 }
+/* Styling for present class */
 
 .present {
   background-color: #FFCBA5;
@@ -68,6 +77,8 @@ textarea {
   color: white;
 }
 
+/* Styling for future class */
+
 .future {
   background-color: #D6F2C7;
   color: white;
@@ -77,6 +88,8 @@ textarea {
   background-color: #ABDC81;
   color: white;
 }
+
+/* Styling for save button */
 
 .saveBtn {
   border-left: 1px solid black;
@@ -90,6 +103,8 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+/* Styling for footer */
 
 .footer {
   padding: 40px;
