@@ -14,6 +14,9 @@ $(document).ready(function () {
       $('.notification').removeClass('show');
 
     }, 5000);
+    
+    // Call the hourUpdater function when the document is ready
+      hourUpdater();
 
   });
 
@@ -35,12 +38,6 @@ $(document).ready(function () {
       }  
     });
   }
-  // Call the hourUpdater function when the document is ready
-
-    $(document).ready(function () {
-
-      hourUpdater();
-    });
 
   // Restore user input data saved in local storage and display on page in specific element when refreshed
 

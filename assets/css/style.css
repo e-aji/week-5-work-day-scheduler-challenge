@@ -14,12 +14,10 @@ background-color: #99B4BF;
   transition: ease-in;
   animation: 5s forwards;
   display: none;
-
 }
 
 .notification.show{
   display: block;
-
 }
 
 textarea {
