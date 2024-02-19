@@ -55,4 +55,4 @@ Screenshot showing how events are saved in local storage
 
 ## Links 
 
-Link to deployed application - 
+Link to deployed application - https://e-aji.github.io/week-5-work-day-scheduler-challenge/ 
