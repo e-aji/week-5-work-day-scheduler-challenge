@@ -6,8 +6,22 @@ body {
 header{
 
 background-color: #99B4BF;
+}
+
+/* Styles for notification message */
+.notification {
+  text-align: center;
+  transition: ease-in;
+  animation: 5s forwards;
+  display: none;
 
 }
+
+.notification.show{
+  display: block;
+
+}
+
 textarea {
   background: transparent;
   border: none;
